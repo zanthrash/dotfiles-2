@@ -3,5 +3,6 @@ bash
 findutils
 grc
 htop
+mas
 md5sha1sum
 readline
