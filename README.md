@@ -1,14 +1,14 @@
-# Danny's dotfiles #
+# Rob's dotfiles #
 
-Opinionated dotfiles repository for Mac OS with zsh and iTerm 2. Including Homebrew, Solarised and oh-my-zsh with the Agnoster theme.
+Opinionated dotfiles repository for Mac OS with zsh and iTerm 2. Including Homebrew, Mac App Store command line, MaterialDark and oh-my-zsh with the Agnoster theme.
 
-Inspired by Zach Holman's dotfiles - https://github.com/holman/dotfiles.
+Adapted from Danny Thomas' dotfiles - https://github.com/DanielThomas/dotfiles.
 
 ## Install ##
 
 - Assuming a clean install, run `xcode-select --install` to install the Developer Tools
 - Fork and clone the repository `git clone <repopath> ~/.dotfiles`
-- Start Terminal for installation (iTerm, fonts, colour schemes and preferences lists are automatically installed as part of the bootstrap, and iTerm will overwrite settings on exit)
+- Start Terminal for installation (iTerm, fonts, color schemes and preferences lists are automatically installed as part of the bootstrap, and iTerm will overwrite settings on exit)
 - Run the bootstrap:`cd ~/.dotfiles; ./bootstrap.sh`. You'll be prompted at least once for your password for the Homebrew install
 - Set `zsh` as your default shell: `sudo sh -c 'echo /usr/local/bin/zsh >> /etc/shells'; chsh -s /usr/local/bin/zsh`
 - Start iTerm. If you see `zsh compinit: insecure directories` warnings, run: `compaudit | xargs chmod g-w`
@@ -44,7 +44,7 @@ These files set your shell's environment:
 
 The following extensions will cause files to be created in your home directory:
 
-- `*.symlink`: Automaticlly symlinked into your `$HOME` as a dot file during bootstrap. For example, `myfile.symlink` will be linked as `$HOME/.myfile`
+- `*.symlink`: Automatically symlinked into your `$HOME` as a dot file during bootstrap. For example, `myfile.symlink` will be linked as `$HOME/.myfile`
 - `*.gitrepo`: Contains a URL to a Git repository to be cloned as a dotfile. For example `myrepo.symlink` will be cloned to `$HOME/.myrepo`
 - `*.gitpatch`: Name `repo-<number>.gitpatch` to apply custom patches to a `gitrepo` repository
 - `*.otf`, `*.ttf`, `*.ttc`: Fonts are copied to `~/Library/Fonts` during bootstrap
