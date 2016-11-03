@@ -1,6 +1,7 @@
 coreutils
 bash
 findutils
+gpg
 grc
 htop
 mas
