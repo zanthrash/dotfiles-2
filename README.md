@@ -60,6 +60,11 @@ Installation steps during bootstrap can be handled in three ways:
 - `install.mas`: A list of App Store apps to install
 - `install.open`: A list of files to be handled by the default application association using the `open` command
 
+The `install.mas` file requires an app id and name.
+For example `409183694 Keynote`.
+Names may contain spaces.
+You can find the app ids using `mas search <whatever>`.
+
 ### Plugins ###
 
 - All topic directory names are implicitly added to the plugin list, so you get `osx` and `brew` automatically
