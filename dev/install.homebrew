@@ -5,6 +5,8 @@ ccache
 cloc
 cmake
 gcc
+git
+graphviz
 makedepend
 mercurial
 node
