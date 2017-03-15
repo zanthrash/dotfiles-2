@@ -5,6 +5,7 @@ bsdmake
 ccache
 cloc
 cmake
+docker-compose
 gcc
 git
 graphviz
