@@ -1,4 +1,4 @@
-# Rob's dotfiles #
+# Zan's dotfiles #
 
 Opinionated dotfiles repository for Mac OS with zsh and iTerm 2. Including Homebrew, Mac App Store command line, MaterialDark and oh-my-zsh with the Agnoster theme.
 
